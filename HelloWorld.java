@@ -1,6 +1,8 @@
-class HelloWorld
-{
-public static void main(String []arg){
-console.log("Testing jenkins build");
-}
+/** 
+ * The HelloWorldApp class implements an application that simply prints "Hello World" to standard output.
+ */
+public class HelloWorld {
+  public static void main(String[] args) {
+    System.out.println("Hello, World");
+  }
 }
